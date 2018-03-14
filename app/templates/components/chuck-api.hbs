@@ -1,1 +1,9 @@
+<a href="http://localhost:4200/chuck" {{action "logClick" preventDefault=false}}>Go</a>
+
+
+<h1><button {{action "getJoke"}}> Learn about Chuck </button></h1>
+{{#if gotJoke}}
+	<h2 class='joke'>{{joke}}</h2>
+{{/if}}
+
 {{yield}}
