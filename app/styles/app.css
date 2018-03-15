@@ -39,8 +39,13 @@ h1,h2, button {
   text-shadow: 1px 1px 1px black,
                2px 2px 1px lime;
 }
+.chuckHead{
+  float:right;
 
-
+}
+.head{
+  width: 50%;
+}
 
 .joke{
 
@@ -65,6 +70,8 @@ h1,  {
 
 .chuckBut{
   border-radius: 0;
+  outline: none;
+
 }
 
 h2 {
